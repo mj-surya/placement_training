@@ -267,9 +267,9 @@ public class Atm {
 
         if (State == 1) {
             atm = new Atm[2];
-            atm[0] = new Atm("Surya", "1234", 5000);
+            atm[0] = new Atm("Surya", "1234", 8000);
             atm[0].User_Statement = new ArrayList<>();
-            atm[1] = new Atm("Kavin", "1234", 6000);
+            atm[1] = new Atm("Kavin", "1234", 4500);
             atm[1].User_Statement = new ArrayList<>();
             State = 0;
         }
